@@ -1,0 +1,27 @@
+{
+  "name": "froheaussicht",
+  "version": "1.0.0",
+  "description": "frohe Aussicht Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.bluedynamics.eu:agitator/froheaussicht.static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flexbox-reset": "^2.1.0"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-browser-sync": "latest",
+    "grunt-contrib-less": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-postcss": "latest",
+    "cssnano": "latest",
+    "autoprefixer": "latest"
+  }
+}

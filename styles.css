@@ -1,0 +1,340 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+big,
+br,
+cite,
+code,
+del,
+dfn,
+em,
+hr,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+button,
+caption,
+input,
+fieldset,
+form,
+label,
+legend,
+table,
+textarea,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+audio,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+mark,
+menu,
+nav,
+option,
+output,
+ruby,
+section,
+select,
+summary,
+time,
+video {
+  border: 0;
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+a,
+abbr,
+acronym,
+b,
+bdo,
+big,
+br,
+cite,
+code,
+del,
+dfn,
+em,
+i,
+ins,
+kbd,
+mark,
+q,
+samp,
+s,
+small,
+span,
+strike,
+strong,
+sub,
+sup,
+time,
+tt,
+var {
+  display: inline;
+}
+blockquote,
+button,
+caption,
+dd,
+dt,
+figcaption,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+option,
+output,
+p,
+pre,
+select,
+summary,
+textarea {
+  display: block;
+}
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  background: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+body {
+  background: white;
+  color: black;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  min-height: 100vh;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+q:before,
+blockquote:after,
+q:after {
+  content: '';
+  content: none;
+}
+:focus {
+  outline: 0;
+}
+input[type=date],
+input[type=datetime-local],
+input[type=file],
+input[type=month],
+input[type=time],
+input[type=week],
+select {
+  flex-direction: row;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-spacing: 0;
+  display: table;
+}
+tbody {
+  display: table-row-group;
+}
+td,
+th {
+  display: table-cell;
+}
+thead {
+  display: table-header-group;
+}
+tr {
+  display: table-row;
+}
+body {
+  background: #F26639;
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+}
+h1 {
+  font-family: 'Yrsa', serif;
+  font-size: 2em;
+}
+h2 {
+  font-family: 'Yrsa', serif;
+  font-size: 1.8em;
+}
+h3 {
+  font-family: 'Yrsa', serif;
+  font-size: 1.6em;
+}
+h4 {
+  font-family: 'Yrsa', serif;
+  font-size: 1.4em;
+}
+h5 {
+  font-family: 'Yrsa', serif;
+  font-size: 1.2em;
+}
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-device-width: 667px) {
+  .container {
+    height: auto;
+  }
+}
+#main {
+  padding-top: 3em;
+  padding-left: 2em;
+  width: 80vw;
+}
+#logo {
+  margin-top: 6vh;
+  margin-bottom: 12vh;
+  width: 30em;
+  max-width: 80%;
+}
+#contact {
+  margin-bottom: 2em;
+  padding-left: 2em;
+  width: 80vw;
+}
+#contact #contactInner {
+  padding-left: 2em;
+  width: 30em;
+  max-width: 100%;
+  align-self: flex-end;
+}
+#contact .line {
+  position: absolute;
+  margin-left: -3.5em;
+  margin-top: 0.05em;
+  border-bottom: 1px solid white;
+  width: 3em;
+}
+#contact p {
+  padding-right: 2em;
+}
+#contact h3 {
+  line-height: 1.25em;
+  margin-top: 0.5em;
+  display: inline-block;
+}
+#contact a {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.6em;
+  display: inline;
+  align-self: center;
+  padding: 0.3em 1.2em;
+  white-space: nowrap;
+  border: 1px solid white;
+}
+#contact a:hover {
+  background: white;
+  color: #F7931D;
+}
+.people {
+  padding-top: 3em;
+  padding-left: 2em;
+  width: 80vw;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.people > div {
+  width: 15em;
+  padding-bottom: 1em;
+}
+.people > div span {
+  white-space: nowrap;
+  padding-right: 1em;
+}
+@media (max-device-width: 667px) {
+  .people {
+    padding-top: 3em;
+    padding-left: 2em;
+    margin-bottom: 2em;
+    width: 80vw;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: unset;
+  }
+  .people > div {
+    width: auto;
+    padding-bottom: 1em;
+  }
+  .people > div span {
+    white-space: nowrap;
+    padding-right: 1em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
